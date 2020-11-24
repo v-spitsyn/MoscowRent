@@ -1,0 +1,10 @@
+fake_useragent==0.1.11
+geopy==2.0.0
+scipy==1.5.0
+pandas==1.0.5
+numpy==1.18.5
+requests==2.24.0
+beautifulsoup4==4.9.3
+python_Levenshtein==0.12.0
+scikit_learn==0.23.2
+scikit-optimize==0.8.1
