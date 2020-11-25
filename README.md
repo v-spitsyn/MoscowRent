@@ -2,6 +2,7 @@ MoscowRent
 ==============================
 
 Analysis of Moscow rental property's pricing
+
 The project presents building a model that predicts rental price per square meter for 1 to 5-room flats in Moscow. The data for training were scraped from advertisements on a popular classified avito.ru. Random forest is used for prediction and achieves mean percentage absolute error of 16%.
 
 Project Organization
