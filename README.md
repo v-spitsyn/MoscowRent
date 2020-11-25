@@ -3,7 +3,10 @@ MoscowRent
 
 Analysis of Moscow rental property's pricing
 
-The project presents building a model that predicts rental price per square meter for 1 to 5-room flats in Moscow. The data for training were scraped from advertisements on a popular classified avito.ru. Random forest is used for prediction and achieves mean percentage absolute error of 16%.
+The project presents building a model that predicts rental price per square meter for 1 to 5-room flats in Moscow. The data for training were scraped from advertisements on a popular classified avito.ru. Scraping was conducted daily from August 1 to August 14, leading to a 13 thousand observations. Random forest is used for prediction and achieves mean absolute percentage error of 16%.
+
+The logical order of files is 
+scraping.py -> make_dataset.py -> eda.ipynb -> modelling.ipynb -> build_features.py -> train_model.py -> predict_model.py
 
 Project Organization
 ------------
